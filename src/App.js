@@ -13,10 +13,10 @@ function App() {
   };
 
   return (
-    <div>
+    <>
       <AddUser onSubmitUser={onSubmitUser} />
       <UsersList users={users} />
-    </div>
+    </>
   );
 }
 
